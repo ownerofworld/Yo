@@ -3,9 +3,9 @@ from typing import Optional
 
 from telegram import User, Chat, ChatMember, Update, Bot
 
-from haruka import DEL_CMDS, SUDO_USERS, WHITELIST_USERS
-import haruka.modules.sql.admin_sql as admin_sql
-from haruka.modules.translations.strings import tld
+from tg_bot import DEL_CMDS, SUDO_USERS, WHITELIST_USERS
+import tg_bot.modules.sql.admin_sql as admin_sql
+from tg_bot.modules.translations.strings import tld
 
 
 def can_delete(chat: Chat, bot_id: int) -> bool:
