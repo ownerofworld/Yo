@@ -20,19 +20,17 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 from tg_bot.modules.translations.strings import tld, tld_help 
 from tg_bot.modules.connection import connected
 
-PM_START = """Hello {}, my name is {}!
+PM_START = """Hey {} ! My name is {} - I'm here to help you manage your groups!... Click /Help  to find out more about how to use me to my full potential.
 
-I'm here to help you manage your groups!. Need Any Help Join Our Support Group ( @MenheraChanSupport) 
+Made with love by [this guy](tg://user?id={}).
 
-I'm a group manager bot maintained by this [sexy boi](https://t.me/TheDarkW3b) I'm built in python3, using the python-telegram-bot library.
+My future updates will be put into This Group - @CuratorCrew
 
-Want to add me to your group? [Click here!](t.me/MenheraChanRoBot?startgroup=true)
+I'm built in python3, using the python-telegram-bot library.
 
-Click (Help) button to find out more about how to use me to my full potential.
+You can find the list of available commands with /help.🙂
 
-My Source Can Be Find [Here](https://github.com/TheDarkW3b/Menhera) ❤️
-
-Do You Like My Work Kindly Donate Me At @TheDarkW3b 🙂"""
+If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS 🙂"""
 
 
 IMPORTED = {}
