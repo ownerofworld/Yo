@@ -1,6 +1,6 @@
 # Marie-English
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/TheDarkW3b/Marie-English/tree/master)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?)
 
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 
